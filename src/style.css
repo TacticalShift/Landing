@@ -1,0 +1,237 @@
+html {
+	height:100%;
+}
+
+body {
+    overflow-x: hidden;
+	background-color: #f9f9f9!important;
+	text-decoration: none;
+	height:100%;
+}
+
+.main-wrapper {
+	min-height: 100%;
+}
+
+footer {
+	height: 48px;
+	margin-top: -48px;
+}
+
+.container-fluid {
+	font-family: "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	color: #444444;
+}
+
+.thick-line {
+	line-height: 48px;
+}
+
+.thick-line a {
+	color: #f9f9f9!important;
+	font-family: "Helvetica Neue", Helvetica, sans-serif, "Lucida Grande", Arial;
+	font-size: 13px;
+	font-weight: 600;
+	text-decoration: none;
+	transition: all 0.1s;
+}
+
+.thick-line a:hover{
+	color:#000!important;
+	text-decoration: none;
+}
+
+.logo {
+    padding-top:38px!important;
+    padding-bottom:38px!important;
+    margin:0px!important;
+	background-color: #f9f9f9!important;
+}
+
+.ts-btn {
+    cursor: pointer;
+    text-decoration: inherit;
+    padding: 0px;
+}
+
+.ts-btn:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.tales {
+    width: 80%;
+}
+
+.carousel-inner{
+    width: 80%;
+    max-height: 600px !important;
+}
+
+.ts-img {
+    max-width:64px!important;
+	height: 64px;
+	filter: grayscale(100%);
+	opacity: 0.4;
+	transition: all 0.1s;
+}
+
+.ts-img:hover {
+	filter: grayscale(0%);
+	opacity: 1;
+	transition: all 0.25s;
+}
+
+.img-ts {
+	background-image: url('img/ts_logo_c.png');
+}
+
+.img-vk {
+    background-image: url('img/vk_logo_c.png');
+}
+
+.img-yt {
+    background-image: url('img/yt_logo_c.png');
+}
+
+.img-st {
+    background-image: url('img/st_logo_c.png');
+}
+
+.img-discord {
+	background-image: url('img/discord_logo_c.png');
+}
+
+
+.roundel {
+	background-color: #444444;
+	border-radius: 50%;	
+	width: 65px;
+	height: 65px;
+	margin: auto; 
+}
+
+.row-item-header {
+	font-size: 24px;
+	line-height: 34px;
+	padding: 10px 5px 15px 5px;
+	border-bottom: 1px solid #ddd;
+}
+
+.row-item {
+	padding-bottom: 64px;
+}
+
+.row-item-title {
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.row-item-left-pane {
+	display: inline-block;
+	font-size: 13px;
+}
+
+.row-item-right-pane {
+	border-left: 1px solid #ddd;
+	display: inline-block;
+	font-size: 13px;
+}
+
+.row-item-central-pane {
+	display: inline-block;
+	font-size: 13px;
+	padding: 15px 10px 0px 10px;
+}
+
+.row-item-pane-bg-aar {
+	background-image: url('img/bg_aar.png');
+	background-size: 1460px;
+}
+
+.row-item-pane-bg-missions {
+	background-image: url('img/bg_missions.png');
+	background-size: 1460px;
+}
+
+.row-item-pane-bg-gaming {
+	background-image: url('img/bg_gaming.png');
+	background-size: 1460px;
+}
+
+.copyable-input {
+	width: 225px;
+	height: 25px;
+	resize: none;
+	font-weight: bold;
+	overflow: hidden;
+	vertical-align: top;
+	color: rgb(68, 68, 68);
+	border-color: #ddd;
+	background-color: #f9f9f9;
+}
+
+.ts-link {
+	color: #3b3b3b;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 13px;
+
+	padding: 10px;
+	border: 1px solid #444;
+	transition: all 0.1s;
+}
+
+.ts-link:hover {
+	color: #3b3b3b;
+	text-decoration: none;
+
+	background-color: #444;
+	color: #f9f9f9;
+}
+
+.img-a3 {
+	background-image: url('img/arma3.png');
+	background-size: 65px;
+}
+
+.img-ts3 {
+	background-image: url('img/ts3.png');
+	background-size: 65px;
+}
+
+.img-rules {
+	background-image: url('img/rules.png');
+	background-size: 65px;
+}
+
+.img-ws {
+	background-image: url('img/ws.png');
+	background-size: 65px;
+}
+
+.img-preset-guide {
+	background-image: url('img/ts_launcher.png');
+	background-size: 256px;
+	height: 64px;
+}
+
+.list-group-good {
+	border-right: 3px solid #ace600!important;
+	border-bottom: 1px solid #ace600!important;
+}
+
+.list-group-bad {
+	border-right: 3px solid rgb(179, 10, 10)!important;
+	border-bottom: 1px solid rgb(179, 10, 10)!important;
+}
+
+.row-list-item {
+	font-weight: 500;
+	font-size: 17px;
+}
+
+.list-group-item {
+	font-size: 15px;
+}
+
