@@ -235,3 +235,53 @@ footer {
 	font-size: 15px;
 }
 
+.topic-header {
+	background-color: #343a40;
+    color: #f9f9f9;
+    padding: 5px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+.text-p {
+	text-align: justify!important;
+}
+
+.text-p a {
+	color: #8e0000;
+	
+}
+
+.text-p a:hover {
+	color: #c52334;
+}
+
+highlight {
+	background-color: #e3e3e3;
+    border: 3px solid #e3e3e3;
+    border-radius: 5px;
+}
+
+warn {
+	color: red;
+}
+
+key {
+    background-color: #f1f1f1;
+    text-align: center;
+    border-left: 1px solid #cfcfcf;
+    border-top: 1px solid #cfcfcf;
+    border-right: 2px solid #666;
+    border-bottom: 2px solid #666;
+    -moz-border-radius: 4px 4px 4px 4px;
+    padding-left: 1px;
+    padding-top: 0;
+    padding-right: 2px;
+    padding-bottom: 0;
+    margin-left: 2px;
+    margin-right: 2px;
+    vertical-align: top;
+    font-family: sans-serif;
+    white-space: nowrap;
+}
+
