@@ -72,6 +72,17 @@ footer {
 	text-shadow: 2px 2px #000;
 }
 
+@media only screen and (max-width: 1024px) {
+	.carousel-text h1 {
+		font-size: 1.2rem;
+	}
+	.carousel-text h5 {
+		font-size: 0rem;
+		line-height: 0px;
+		display: none;
+	}
+}
+
 .ts-img {
     max-width:64px!important;
 	height: 64px;
