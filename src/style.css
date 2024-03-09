@@ -205,6 +205,42 @@ footer {
 	color: #f9f9f9;
 }
 
+.ts-button-block {	
+}
+
+.ts-button-block button {
+	background: none;
+	cursor: pointer;
+	outline: inherit;
+	text-decoration: none;
+	color: #3b3b3b;
+	font-weight: bold;
+	font-size: 13px;
+
+	padding: 10px;
+	margin: 0px 0px 5px 0px;
+	border: 1px solid #444;
+	transition: all 0.1s;
+}
+
+.ts-button-block button:hover {
+	background-color: #444;
+	color: #f9f9f9;
+	transition: all 0.1s;
+}
+
+.ts-button-block button:hover a {
+	background-color: #444;
+	color: #f9f9f9;
+	transition: all 0.1s;
+}
+
+.ts-button-block button a {
+	text-decoration: none;
+	color: #3b3b3b;
+}
+
+
 .img-a3 {
 	background-image: url('img/arma3.png');
 	background-size: 65px;
