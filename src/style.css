@@ -68,6 +68,10 @@ footer {
     max-height: 600px !important;
 }
 
+.carousel-text {
+	text-shadow: 2px 2px #000;
+}
+
 .ts-img {
     max-width:64px!important;
 	height: 64px;

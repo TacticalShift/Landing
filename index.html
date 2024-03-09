@@ -15,21 +15,20 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+	<script src="src/script.js"></script>
 </head>
 
 <body>
 	<div class="main-wrapper">
 		<div class="logo jumbotron jumbotron-fluid">
-			<div class="container text-center"><a href="/"><img src="src/img/ts_logo_site_black_s.png"
-						class="img-fluid"></a></div>
+			<div class="container text-center"><a href="/"><img src="src/img/ts_logo_site_black_s.png" class="img-fluid"></a></div>
 		</div>
 
 		<div id="collapsibleNavbar" class="row text-center bg-dark navbar-collapse thick-line">
 			<div class="col-sm-2"></div>
-			<a class="ts-btn col-sm-2" href="https://discord.gg/bqnGUCmAgU"><i class="fa fa-play-circle"></i>
-				Ближайшая игра</a>
+			<a class="ts-btn col-sm-2" href="https://discord.gg/bqnGUCmAgU" meta-url="discord"><i class="fa fa-play-circle"></i> Ближайшая игра</a>
 			<a class="ts-btn col-sm-2" href="/how_to"><i class="fa fa-question-circle"></i> Как начать играть</a>
-			<a class="ts-btn col-sm-2" href="https://discord.gg/bqnGUCmAgU"><i class="fa fa-users"></i> Discord</a>
+			<a class="ts-btn col-sm-2" href="https://discord.gg/bqnGUCmAgU" meta-url="discord"><i class="fa fa-users"></i> Discord</a>
 			<a class="ts-btn col-sm-2" href="/extra"><i class="fa fa-compass" aria-hidden="true"></i> Новичкам</a>
 			<div class="col-sm-2"></div>
 		</div>
@@ -49,26 +48,56 @@
 			<div class="carousel-inner">
 				<div class="carousel-item active">
 					<img src="src/screens/pic1.jpg" class="tales">
-					<!--
-						<div class="carousel-caption .d-inline-block">
-							<p>JTAC / CAS<br>Leadership<br>RTO</p>
-						</div>
-						-->
-				</div>
-				<div class="carousel-item">
-					<img src="src/screens/pic2.jpg" class="tales">
-				</div>
-				<div class="carousel-item">
-					<img src="src/screens/pic3.jpg" class="tales">
+					<div class="carousel-caption .d-inline-block carousel-text">
+						<h1>Кооперативные игры в Arma 3</h1>
+						<h5>С использованием тактических доктрин на основе опыта реальных армий мира</h5>
+					</div>
 				</div>
 				<div class="carousel-item">
 					<img src="src/screens/pic4.jpg" class="tales">
+					<div class="carousel-caption .d-inline-block carousel-text">
+						<h1>Играем собственные миссии</h1>
+						<h5>С любовью созданные нашими участниками</h5>
+					</div>
 				</div>
 				<div class="carousel-item">
 					<img src="src/screens/pic5.jpg" class="tales">
+					<div class="carousel-caption .d-inline-block carousel-text">
+						<h1>На основе рельных событий</h1>
+						<h5>Начиная с 1950-х и до наших дней</h5>
+					</div>
 				</div>
+				
+				<div class="carousel-item">
+					<img src="src/screens/pic7.jpg" class="tales">
+					<div class="carousel-caption .d-inline-block carousel-text">
+						<h1>... и альтернативной истории</h1>
+						<h5>Холодная <strike>вода</strike> война стала горячей!</h5>
+					</div>
+				</div>
+				
+				<div class="carousel-item">
+					<img src="src/screens/pic2.jpg" class="tales">
+					<div class="carousel-caption .d-inline-block carousel-text">
+						<h1>Вариативность фракций</h1>
+						<h5>Восток, Запад, партизаны всех мастей!</h5>
+					</div>
+				</div>
+				
+				<div class="carousel-item">
+					<img src="src/screens/pic3.jpg" class="tales">
+					<div class="carousel-caption .d-inline-block carousel-text">
+						<h1>... и географии</h1>
+						<h5>Европа, Ближний Восток, Азия</h5>
+					</div>
+				</div>
+				
 				<div class="carousel-item">
 					<img src="src/screens/pic6.jpg" class="tales">
+					<div class="carousel-caption .d-inline-block carousel-text">
+						<h1>Присоединяся сейчас!</h1>
+						<p>Проводим обучение с нуля и переподготовку кадров</p>
+					</div>
 				</div>
 			</div>
 
@@ -88,12 +117,12 @@
 			</div>
 			<div class="row">
 				<div class="col-sm-4"></div>
-				<a class="col-sm-1 ts-img img-ts container" href="ts3server://ts3.tacticalshift.ru?port=9987"></a>
-				<a class="col-sm-1 ts-img img-discord container" href="https://discord.gg/bqnGUCmAgU"></a>
-				<a class="col-sm-1 ts-img img-vk container" href="https://vk.com/tacticalshift"></a>
+				<a class="col-sm-1 ts-img img-ts container" href="ts3server://ts3.tacticalshift.ru?port=9987" meta-url="teamspeak"></a>
+				<a class="col-sm-1 ts-img img-discord container" href="https://discord.gg/bqnGUCmAgU" meta-url="discord"></a>
+				<a class="col-sm-1 ts-img img-vk container" href="https://vk.com/tacticalshift" meta-url="vk"></a>
 				<a class="col-sm-1 ts-img img-yt container"
-					href="https://www.youtube.com/channel/UCUCo9u8-z0pLinUEWzSlPmg"></a>
-				<a class="col-sm-1 ts-img img-st container" href="https://steamcommunity.com/groups/tacticalshift"></a>
+					href="https://www.youtube.com/channel/UCUCo9u8-z0pLinUEWzSlPmg" meta-url="youtube"></a>
+				<a class="col-sm-1 ts-img img-st container" href="https://steamcommunity.com/groups/tacticalshift" meta-url="steam"></a>
 				<div class="col-sm-4"></div>
 			</div>
 		</div>
