@@ -26,7 +26,7 @@ const CommunityURLs = [
 function setCommunityURLs() {
 	CommunityURLs.forEach((url) => {
 		document
-			.querySelectorAll(`[meta-url=${url.name}`)
+			.querySelectorAll(`[meta-url=${url.name}]`)
 			.forEach((link) => link.href = url.url)	
 	})
 };
