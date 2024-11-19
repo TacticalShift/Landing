@@ -98,7 +98,7 @@ footer > small {
 	.carousel-text h1 {
 		font-size: 1.2rem;
 	}
-	.carousel-text h5,p {
+	.carousel-text h5, .carousel-text p {
 		font-size: 0rem;
 		line-height: 0px;
 		display: none;
