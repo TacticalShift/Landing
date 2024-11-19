@@ -19,6 +19,14 @@ const CommunityURLs = [
 	{
 		name: "youtube",
 		url: "https://www.youtube.com/channel/UCUCo9u8-z0pLinUEWzSlPmg"
+	},
+	{
+		name: "tg",
+		url: "https://t.me/+TyNXcA0GSZNmZjJi"
+	},
+	{
+		name: "retro",
+		url: "https://tacticalshift.framer.website/"
 	}
 ]
 
@@ -27,7 +35,7 @@ function setCommunityURLs() {
 	CommunityURLs.forEach((url) => {
 		document
 			.querySelectorAll(`[meta-url=${url.name}]`)
-			.forEach((link) => link.href = url.url)	
+			.forEach((link) => link.href = url.url)
 	})
 };
 

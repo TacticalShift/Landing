@@ -1,0 +1,120 @@
+{
+    "pagesToBuild": [
+        "index",
+        "how_to",
+        "rules",
+        "newbie",
+        "competancy",
+        "teamwork",
+        "freemasonry"
+    ],
+
+    "head": {
+        "template": "_head.html",
+        "templateParams": {
+            "$meta_url": "https://tacticalshift.ru",
+            "$meta_title": "Tactical Shift | ArmA 3 Community",
+            "$meta_desc": "Игры в стиле mil-sim.",
+            "$meta_image": "https://tacticalshift.ru/src/img/ts_icon_256.png",
+            "$title": "Tactical Shift | ArmA 3 Community"
+        }
+    },
+    "body": {
+        "template": "_body.html",
+        "templateParams": {
+            "$body_header": "",
+            "$body_content": "",
+            "$body_footer": ""
+        }
+    },
+    "body_header": {
+        "template": "_body_header.html",
+        "templateParams": {}
+    },
+    "body_footer": {
+        "template": "_body_footer.html",
+        "templateParams": {
+            "$year": ""
+        }
+    },
+
+
+    "pages": [
+        {
+            "id": "index",
+            "content": "main_page.html",
+            "contentParams": {},
+            "headParams": {
+                "$title": "Tactical Shift | ArmA 3 Community"
+            },
+            "headerParams": {},
+            "footerParams": {}
+        },
+        {
+            "id": "how_to",
+            "content": "how_to.html",
+            "contentParams": {},
+            "headParams": {
+                "$title": "Как начать играть? | Tactical Shift",
+                "$meta_url": "https://tacticalshift.ru/how_to",
+                "$meta_title": "Как начать играть? | Tactical Shift",
+                "$meta_desc": "Пошаговая инструкция о том, как присоединится к увлекательным играм в сообществе Tactical Shift!"
+            }
+        },
+        {
+            "id": "rules",
+            "content": "rules.html",
+            "contentParams": {},
+            "headParams": {
+                "$title": "Правила | Tactical Shift",
+                "$meta_url": "https://tacticalshift.ru/rules",
+                "$meta_title": "Правила | Tactical Shift",
+                "$meta_desc": "Этот список правил важно знать и соблюдать каждому!"
+            }
+        },
+        {
+            "id": "newbie",
+            "content": "newbie.html",
+            "contentParams": {},
+            "headParams": {
+                "$title": "Новичкам | Tactical Shift",
+                "$meta_url": "https://tacticalshift.ru/rules",
+                "$meta_title": "Новичкам | Tactical Shift",
+                "$meta_desc": "Для новичков: Полезная информация для комфортного входа в наше сообщество и наши игры!"
+            }
+        },
+        {
+            "id": "freemasonry",
+            "content": "freemasonry.html",
+            "contentParams": {},
+            "headParams": {
+                "$title": "Масонская ложа | Tactical Shift",
+                "$meta_url": "https://tacticalshift.ru/freemasonry",
+                "$meta_title": "Масонская ложа | Tactical Shift",
+                "$meta_desc": "Портал ресурсов сообщества."
+            }
+        },
+        {
+            "id": "competancy",
+            "content": "competancy.html",
+            "contentParams": {},
+            "headParams": {
+                "$title": "Игровая компетенция | Tactical Shift Docs",
+                "$meta_url": "https://tacticalshift.ru/competancy",
+                "$meta_title": "Игровая компетенция | Tactical Shift Docs",
+                "$meta_desc": "Для новичков: Необходимый минимум знаний для начала игры с нами."
+            }
+        },
+        {
+            "id": "teamwork",
+            "content": "teamwork.html",
+            "contentParams": {},
+            "headParams": {
+                "$title": "Игра в команде | Tactical Shift Docs",
+                "$meta_url": "https://tacticalshift.ru/teamwork",
+                "$meta_title": "Игра в команде | Tactical Shift Docs",
+                "$meta_desc": "Для новичков: Как стать полезным членом команды и получить качественный игровой опыт."
+            }
+        }
+    ]
+}
